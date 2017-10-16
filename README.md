@@ -1,10 +1,10 @@
 jMoppet is providing Monitor oriented Programming for JAVA in JAVA. No DSLs, lightweight, yet powerful.
 
-Monitoring oriented programming provides a way to separate your logic from error handling code, to just be able to just run the moppet!
+Monitoring oriented programming provides a way to separate your logic from error handling code, to just run the moppet!
 
 What it is.
 
-jMoppet makes use of the fact that most applications use events or are able to do so. There are network events, GUI events, File evemts, ... 
+jMoppet makes use of the fact that most applications use events or are able to do so. There are network events, GUI events, File events, ... 
 
 With jMoppet you can attach to those events and define constraints as well as repair mechanisms that kick in when the constraint is violated. To define constraints quickly,  jUnit-like assertion syntax is used.
 
