@@ -2,16 +2,21 @@ jMoppet is providing Monitor oriented Programming for JAVA in JAVA. No DSLs, lig
 
 Monitoring oriented programming provides a way to separate your logic from error handling code, to just run the moppet!
 
-What it is.
+What it is
+----------
 
 jMoppet makes use of the fact that most applications use events or are able to do so. There are network events, GUI events, File events, ... 
 
-With jMoppet you can attach to those events and define constraints as well as repair mechanisms that kick in when the constraint is violated. To define constraints quickly,  jUnit-like assertion syntax is used.
+With jMoppet you can attach to those events and define constraints as well as repair mechanisms that kick in when the constraint is violated. To define constraints easily,  jUnit-like assertion syntax is used.
 
-You can see jMoppet as a test framework, though it operates at runtime.
+This should enable teams to make a rock hard application with less unit testing effort.
 
-On top of that, you can provide recovery code when a constraint failed.
+Performance
+------
 
-Together this should give big teams enable to make a rock hard application with little unit testing effort.
+jMoppet is using CPU cycles depending on the mount of constraints and how hard it is to evaluate them. This can cause apps to slow down a litte. Since it's a multi threaded moppet, the performance impact should be insignificant.
 
-jMoppet is using CPU cycles what can cause apps to slow down a litte. Since it's a multi threaded moppet, the performance impact should be insignificant.
+Progress
+--------
+
+jMoppet was just started, so every additional input is useful.
