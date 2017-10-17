@@ -14,7 +14,7 @@ This should enable teams to make a rock hard application with less unit testing 
 Performance
 ------
 
-jMoppet is using CPU cycles depending on the mount of constraints and how hard it is to evaluate them. This can cause apps to slow down a litte. Since it's a multi threaded moppet, the performance impact should be insignificant.
+jMoppet is using CPU cycles depending on the mount of constraints and how hard it is to evaluate them. This can cause apps to slow down a little. Since it's a multi threaded moppet, the performance impact should be insignificant.
 
 Progress
 --------
